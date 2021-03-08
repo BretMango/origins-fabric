@@ -54,7 +54,7 @@
   "power.origins.climbing.description": "你可以攀上任何一面墙，而不仅仅是梯子。",
 
   "power.origins.carnivore.name": "食肉",
-  "power.origins.carnivore.description": "你的只吃肉，不吃蔬菜。",
+  "power.origins.carnivore.description": "你的饮食只有肉，不吃蔬菜。",
 
   "power.origins.fire_immunity.name": "火焰免疫",
   "power.origins.fire_immunity.description": "你免疫所有类型的火焰伤害。",
@@ -104,7 +104,7 @@
   "power.origins.nine_lives.name": "九条“命”",
   "power.origins.nine_lives.description": "你比人类少1颗心的生命上限。",
 
-  "power.origins.cat_vision.name": "夜行性",
+  "power.origins.cat_vision.name": "夜猫子",
   "power.origins.cat_vision.description": "不在水里的时候，你在黑暗中的视觉会好些。",
 
   "power.origins.weak_arms.name": "瘦弱手臂",
@@ -116,7 +116,7 @@
   "power.origins.launch_into_air.name": "风之礼遇",
   "power.origins.launch_into_air.description": "每隔30秒，你就能将自己抛向空中约20个方块高度。",
 
-  "power.origins.elytra.name": "有翼",
+  "power.origins.elytra.name": "羽翼",
   "power.origins.elytra.description": "你天生拥有鞘翅，无需装备。",
 
   "power.origins.light_armor.name": "追求行动力",
@@ -160,7 +160,14 @@
 
   "category.origins": "起源",
   "key.origins.primary_active": "主动能力",
+  "key.origins.secondary_active": "被动能力",
+  "key.origins.view_origin": "查看起源",
 
+  "text.autoconfig.origins.title": "起源 配置",
+  "text.autoconfig.origins.option.xOffset": "冷却条 X 轴偏移",
+  "text.autoconfig.origins.option.yOffset": "冷却条 Y 轴偏移",
+  "text.autoconfig.origins.option.phantomizedOverlayStrength": "幻化叠加强度",
+  
   "item.origins.orb_of_origin": "起源之球",
 
   "enchantment.origins.water_protection": "防水",
@@ -169,18 +176,31 @@
 
   "origins.gui.select": "选择",
   "origins.gui.close": "关闭",
+  "origins.gui.choose": "选择",
   "origins.gui.choose_origin.title": "选择你的%s",
   "origins.gui.view_origin.title": "这是你的%s",
+  "origins.gui.view_origin.empty": "你没有任何的起源",
+  "origins.gui.view_origin.not_installed": "该服务器未安装 起源(Origins)",
   "origins.gui.impact.impact": "影响",
   "origins.gui.impact.none": "无",
   "origins.gui.impact.low": "低",
   "origins.gui.impact.medium": "中",
   "origins.gui.impact.high": "高",
+  "origins.gui.version_mismatch": "该服务器正在运行不同版本(v%1$s)的 起源(Origins)，这与你安装的版本(v%2$s)不兼容",
+  
+  "origin.origins.random.name": "随机",
+  "origin.origins.random.description": "你将被分配到以下其中一项:",
   
   "layer.origins.origin": "起源",
+  "layer.origins.origin.missing_origin.name": "未找到",
+  "layer.origins.origin.missing_origin.description": "你没有起源.",
 
   "death.attack.no_water_for_gills": "%s没能保持湿润",
+  "death.attack.no_water_for_gills.player": "%1$s在与%2$s战斗时没能保持湿润",
   "death.attack.hurt_by_water": "%s洗澡的时间太长了",
+  "death.attack.hurt_by_water.player": "%1$s被%2$s推下了水",
+  "death.attack.genericDamageOverTime": "%1$s随着时间一同消逝而去",
+  "death.attack.genericDamageOverTime.player": "%1$s在与%2$s战斗时随着时间一同逝去.",
   
   "commands.origin.origin_not_found": "未知起源：%s",
   "commands.origin.set.success.single": "已将%s的起源设置为：%s.",
